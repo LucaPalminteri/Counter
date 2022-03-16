@@ -1,0 +1,41 @@
+main {
+
+	font-family: sans-serif;
+}
+
+h1 { 
+	padding: 30px;
+	text-align: center;
+ }
+
+ span {
+ 	display: block;
+ 	text-align: center;
+ 	font-size: 80px;
+ }
+
+ .button-container{
+ 	padding: 40px;
+ 	text-align: center;
+ }
+
+ .btn {
+ 	cursor: pointer;
+ 	font-weight: bold;
+ 	background-color: transparent;
+ 	border-radius: 8px;
+ 	transition-duration: .2s;
+ }
+
+.decrease:active {
+ 	background-color: #f00;
+}
+
+.increase:active {
+ 	background-color: #0f0;
+}
+
+.reset:active {
+ 	background-color: #888;
+}
+
